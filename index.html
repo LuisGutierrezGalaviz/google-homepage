@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: gray;
+        border-top: 1px solid black;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    .body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: lightgray;
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+    }
+    .link {
+        padding: 10px;
+    }
+    .link:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .btn {
+        background-color: #4285f4;
+        color: #FFFFFF;
+        height: 30px;
+        padding: 0px 12px 0px 12px;
+        border: none;
+        border-radius: 3px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+    }
+    .btn2 {
+        background-color: lightgray;
+        padding: 0px 16px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        margin: 11px 4px;
+        line-height: 27px;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .logo{
+        margin-top: 8em;
+    }
+    .search{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid gray;
+        border-color: gray;
+        border-radius: 2em;
+        width:  482px;
+        height: 44px;
+        text-align: center;
+        margin-top: 1.5em;
+    }
+    body{
+        margin: 0px;
+        height: 100%;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Home Page</title>
+</head>
+<body>
+    <div class="header">
+        <div class="links">
+            <div class="link">
+                About
+            </div>
+            <div class="link">
+                Store
+            </div>
+        </div>
+        <div class="links">
+            <div class="link">
+                Gmail
+            </div>
+            <div class="link">
+                Images
+            </div>
+            <div style="padding: 10px">
+                <img src="./baseline_apps_black_24dp.png" alt="Google Apps Icon">
+            </div>
+            <div class="link">
+                <button class="btn">Sign In</button>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="logo">
+            <img src="./googlelogo_color_272x92dp.png" alt="Google Logo">
+        </div>
+        <div class="search">
+            <img style="color: gray; height: 20px; padding: 12px 0px 0px 20px" src="./baseline_search_black_24dp.png" alt="Google Search Icon">
+            <img style="color: gray; height: 20px; padding: 12px 20px 0px 0px" src="./baseline_mic_black_24dp.png" alt="Google Mic Icon">
+        </div>
+        <div class="buttons">
+            <div class="btn2">
+                Google Search
+            </div>
+            <div class="btn2">
+                I'm Feeling Lucky
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="links">
+            <div class="link">
+                Advertising
+            </div>
+            <div class="link">
+                Business
+            </div>
+            <div class="link">
+                How Search works
+            </div>
+        </div>
+        <div class="links">
+            <div class="link">
+                Privacy
+            </div>
+            <div class="link">
+                Terms
+            </div>
+            <div class="link">
+                Settings
+            </div>
+        </div>
+    </div>
+</body>
+</html>
